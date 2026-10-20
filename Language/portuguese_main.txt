@@ -1,0 +1,93 @@
+#=======================================================|
+#   Station Transport - Language File - Portuguese      |
+#=======================================================|
+#                   Instructions                        |
+#                                                       |
+# - Same format as the game's Language/*_main.txt files |
+# - Don't erase the numbers in front or the bar         |
+#   character at the end                                |
+# - <par1>, <par2> are replaced with values             |
+# - Keep <b>...</b> tags around the same words          |
+# - Save as UTF-8, named like the game's own file       |
+#   (german_main.txt, chinese_main.txt, ...)            |
+# - Missing entries fall back to English                |
+#=======================================================|
+[0] Hangar                                              |
+#=======================================================|
+000 Transferir para rota comercial|
+001 Para qual rota? A nave sai da sua frota|
+002 Remover da rota|
+003 Saindo da rota|
+004 Nave de rota...|
+005 Escolha uma rota comercial|
+006 Cancelar|
+007 Rotas comerciais|
+008 +<par1> mais: escolha no mapa galáctico|
+009 Ainda não há rotas comerciais. Crie uma no mapa galáctico.|
+010 Esta estação não tem hangar para uma nave de rota.|
+#=======================================================|
+[1] Fleet panel                                         |
+#=======================================================|
+011 Em uma rota comercial|
+012 Nave de rota na reserva: sem espaço de comandante de frota para voltar à frota|
+013 Função: <b>Comerciante</b>|
+#=======================================================|
+[2] Messages                                            |
+# <par1> = ship, <par2> = sector or route               |
+#=======================================================|
+014 A nave de rota <par1> foi abatida em <par2> e escapou com um salto de emergência. Será reparada na próxima parada.|
+015 A nave de rota <par1> foi destruída em <par2>. A carga foi perdida; seus <par4> tripulantes voltaram para <par3>.|
+016 sua nave|
+017 A nave de rota <par1> foi reparada em <par2>. Você só pôde pagar <par3> dos <par4> que custou.|
+018 A nave de rota <par1> não pode partir: nenhuma rota de portais de salto liga sua parada às outras paradas de <par2>. Construa um portal de salto para ligá-las.|
+019 A nave de rota <par1> está aguardando: <par2> precisa de pelo menos duas paradas utilizáveis.|
+#=======================================================|
+[3] Ship status                                         |
+# <par1> = station, <par2> = time left                  |
+#=======================================================|
+020 Presa: sem rota de portais|
+021 Aguardando: a rota precisa de 2 paradas|
+022 Reserva|
+023 Para <par1> <par2>|
+024 Salto de emergência, para <par1> <par2>|
+025 , casco <par1>%|
+026 Negociando em <par1>|
+027 Saindo de <par1>|
+#=======================================================|
+[4] Routes                                              |
+#=======================================================|
+028 Rota <par1>|
+029 (desaparecida)|
+#=======================================================|
+[5] Galaxy map panel                                    |
+#=======================================================|
+030 Ainda não há rotas. Selecione um setor e pressione Nova ao lado de uma de suas estações.|
+031 Um circuito: as naves vão da última parada de volta à primeira.|
+032 As naves vão até a última parada e voltam pelo mesmo caminho.|
+033 Excluir rota|
+034 Paradas|
+035 Uma rota precisa de pelo menos duas paradas.|
+036 (não utilizável)|
+037 Subir|
+038 Remover|
+039 Dividir|
+040 de volta a <par1>|
+041 Abrir circuito|
+042 Fechar circuito até <par1>|
+043 Remover tira uma parada e liga suas vizinhas.|
+044 Remover tira uma parada e liga suas vizinhas; Dividir parte a rota em duas ali. Uma ponta com uma só parada é descartada.|
+045 Naves|
+046 Nenhuma. Transfira naves pelo hangar de uma estação.|
+047 Estações|
+048 Selecione um setor para adicionar suas estações.|
+049 Estações em <par1>|
+050 Nenhuma estação aqui pode negociar. É preciso um mercado; as suas também precisam de hangar, e as de NPC devem ser amistosas e descobertas.|
+051 Você|
+052 NPC|
+053 Fechar circuito|
+054 Parada <par1>|
+055 Adicionar|
+056 Nova|
+057 sem rota de portais desde <par1>|
+058 Esta nave está em uma rota comercial.|
+059 Renomear|

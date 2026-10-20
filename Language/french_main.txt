@@ -1,0 +1,93 @@
+#=======================================================|
+#   Station Transport - Language File - French          |
+#=======================================================|
+#                   Instructions                        |
+#                                                       |
+# - Same format as the game's Language/*_main.txt files |
+# - Don't erase the numbers in front or the bar         |
+#   character at the end                                |
+# - <par1>, <par2> are replaced with values             |
+# - Keep <b>...</b> tags around the same words          |
+# - Save as UTF-8, named like the game's own file       |
+#   (german_main.txt, chinese_main.txt, ...)            |
+# - Missing entries fall back to English                |
+#=======================================================|
+[0] Hangar                                              |
+#=======================================================|
+000 Affecter à une route commerciale|
+001 Vers quelle route ? Le vaisseau quitte votre flotte|
+002 Retirer de la route|
+003 Quitte la route|
+004 Vaisseau de route...|
+005 Choisir une route commerciale|
+006 Annuler|
+007 Routes commerciales|
+008 +<par1> de plus : choisir sur la carte galactique|
+009 Aucune route commerciale. Créez-en une sur la carte galactique.|
+010 Cette station n'a pas de hangar pour un vaisseau de route.|
+#=======================================================|
+[1] Fleet panel                                         |
+#=======================================================|
+011 Sur une route commerciale|
+012 Vaisseau de route en réserve : pas de place de commandant de flotte pour rejoindre la flotte|
+013 Rôle : <b>Marchand</b>|
+#=======================================================|
+[2] Messages                                            |
+# <par1> = ship, <par2> = sector or route               |
+#=======================================================|
+014 Le vaisseau de route <par1> a été abattu en <par2> et s'est échappé par saut d'urgence. Il sera réparé à sa prochaine escale.|
+015 Le vaisseau de route <par1> a été détruit en <par2>. Sa cargaison est perdue ; ses <par4> membres d'équipage sont rentrés à <par3>.|
+016 votre vaisseau|
+017 Le vaisseau de route <par1> a été réparé à <par2>. Vous n'avez pu payer que <par3> sur les <par4> demandés.|
+018 Le vaisseau de route <par1> ne peut pas partir : aucune route de portes de saut ne relie son escale aux autres escales de <par2>. Construisez une porte de saut pour les relier.|
+019 Le vaisseau de route <par1> attend : <par2> a besoin d'au moins deux escales utilisables.|
+#=======================================================|
+[3] Ship status                                         |
+# <par1> = station, <par2> = time left                  |
+#=======================================================|
+020 Bloqué : aucune route de portes|
+021 En attente : la route a besoin de 2 escales|
+022 Réserve|
+023 Vers <par1> <par2>|
+024 Saut d'urgence, vers <par1> <par2>|
+025 , coque <par1>%|
+026 Commerce à <par1>|
+027 Quitte <par1>|
+#=======================================================|
+[4] Routes                                              |
+#=======================================================|
+028 Route <par1>|
+029 (disparue)|
+#=======================================================|
+[5] Galaxy map panel                                    |
+#=======================================================|
+030 Aucune route. Sélectionnez un secteur et appuyez sur Nouvelle à côté d'une de ses stations.|
+031 Une boucle : les vaisseaux vont de la dernière escale à la première.|
+032 Les vaisseaux vont jusqu'à la dernière escale, puis reviennent par le même chemin.|
+033 Supprimer la route|
+034 Escales|
+035 Une route a besoin d'au moins deux escales.|
+036 (inutilisable)|
+037 Monter|
+038 Retirer|
+039 Scinder|
+040 retour à <par1>|
+041 Ouvrir la boucle|
+042 Fermer la boucle vers <par1>|
+043 Retirer enlève une escale et relie ses voisines.|
+044 Retirer enlève une escale et relie ses voisines ; Scinder coupe la route en deux à cet endroit. Un bout avec une seule escale est abandonné.|
+045 Vaisseaux|
+046 Aucun. Affectez des vaisseaux depuis le hangar d'une station.|
+047 Stations|
+048 Sélectionnez un secteur pour ajouter ses stations.|
+049 Stations en <par1>|
+050 Aucune station ici ne peut commercer. Il faut un marché ; les vôtres ont aussi besoin d'un hangar, celles des PNJ doivent être amicales et découvertes.|
+051 Vous|
+052 PNJ|
+053 Fermer la boucle|
+054 Escale <par1>|
+055 Ajouter|
+056 Nouvelle|
+057 aucune route de portes depuis <par1>|
+058 Ce vaisseau est sur une route commerciale.|
+059 Renommer|

@@ -1,0 +1,93 @@
+#=======================================================|
+#   Station Transport - Language File - Vietnamese      |
+#=======================================================|
+#                   Instructions                        |
+#                                                       |
+# - Same format as the game's Language/*_main.txt files |
+# - Don't erase the numbers in front or the bar         |
+#   character at the end                                |
+# - <par1>, <par2> are replaced with values             |
+# - Keep <b>...</b> tags around the same words          |
+# - Save as UTF-8, named like the game's own file       |
+#   (german_main.txt, chinese_main.txt, ...)            |
+# - Missing entries fall back to English                |
+#=======================================================|
+[0] Hangar                                              |
+#=======================================================|
+000 Chuyển sang tuyến thương mại|
+001 Chuyển sang tuyến nào? Tàu sẽ rời hạm đội|
+002 Rút khỏi tuyến|
+003 Đang rời tuyến|
+004 Tàu tuyến...|
+005 Chọn tuyến thương mại|
+006 Hủy|
+007 Tuyến thương mại|
+008 Thêm <par1>: chọn trên bản đồ thiên hà|
+009 Chưa có tuyến thương mại. Hãy tạo trên bản đồ thiên hà.|
+010 Trạm này không có xưởng chứa cho tàu tuyến.|
+#=======================================================|
+[1] Fleet panel                                         |
+#=======================================================|
+011 Đang chạy tuyến thương mại|
+012 Tàu tuyến dự bị: không đủ chỗ chỉ huy hạm đội để trở lại hạm đội|
+013 Vai trò: <b>Thương nhân</b>|
+#=======================================================|
+[2] Messages                                            |
+# <par1> = ship, <par2> = sector or route               |
+#=======================================================|
+014 Tàu tuyến <par1> bị bắn hạ ở <par2> và đã thoát bằng bước nhảy khẩn cấp. Tàu sẽ được sửa ở điểm dừng kế tiếp.|
+015 Tàu tuyến <par1> bị phá hủy ở <par2>. Hàng hóa đã mất; <par4> thủy thủ đã về được <par3>.|
+016 tàu của bạn|
+017 Tàu tuyến <par1> đã được sửa ở <par2>. Bạn chỉ trả được <par3> trong <par4> chi phí.|
+018 Tàu tuyến <par1> không thể khởi hành: không có tuyến cổng nhảy nối điểm dừng của nó với các điểm dừng khác của <par2>. Hãy xây cổng nhảy để nối chúng.|
+019 Tàu tuyến <par1> đang chờ: <par2> cần ít nhất hai điểm dừng dùng được.|
+#=======================================================|
+[3] Ship status                                         |
+# <par1> = station, <par2> = time left                  |
+#=======================================================|
+020 Kẹt: không có tuyến cổng|
+021 Chờ: tuyến cần 2 điểm dừng|
+022 Dự bị|
+023 Đến <par1> <par2>|
+024 Nhảy khẩn cấp, đến <par1> <par2>|
+025 , thân tàu <par1>%|
+026 Đang giao thương ở <par1>|
+027 Rời <par1>|
+#=======================================================|
+[4] Routes                                              |
+#=======================================================|
+028 Tuyến <par1>|
+029 (đã mất)|
+#=======================================================|
+[5] Galaxy map panel                                    |
+#=======================================================|
+030 Chưa có tuyến nào. Chọn một khu vực và nhấn Mới cạnh một trạm của nó.|
+031 Vòng lặp: tàu đi từ điểm dừng cuối về điểm dừng đầu.|
+032 Tàu đi đến điểm dừng cuối rồi quay lại theo đường cũ.|
+033 Xóa tuyến|
+034 Điểm dừng|
+035 Một tuyến cần ít nhất hai điểm dừng.|
+036 (không dùng được)|
+037 Lên|
+038 Bỏ|
+039 Tách|
+040 về <par1>|
+041 Mở vòng lặp|
+042 Khép vòng lặp về <par1>|
+043 Bỏ sẽ gỡ một điểm dừng và nối hai điểm kề nhau.|
+044 Bỏ sẽ gỡ một điểm dừng và nối hai điểm kề nhau; Tách chia tuyến làm đôi tại đó. Đầu chỉ còn một điểm dừng sẽ bị bỏ.|
+045 Tàu|
+046 Không có. Chuyển tàu từ xưởng chứa của một trạm.|
+047 Trạm|
+048 Chọn một khu vực để thêm các trạm của nó.|
+049 Trạm ở <par1>|
+050 Không có trạm nào ở đây giao thương được. Cần có chợ; trạm của bạn còn cần xưởng chứa, trạm NPC phải thân thiện và đã được khám phá.|
+051 Bạn|
+052 NPC|
+053 Khép vòng lặp|
+054 Điểm dừng <par1>|
+055 Thêm|
+056 Mới|
+057 không có tuyến cổng từ <par1>|
+058 Tàu này đang chạy tuyến thương mại.|
+059 Đổi tên|

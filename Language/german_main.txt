@@ -1,0 +1,93 @@
+#=======================================================|
+#   Station Transport - Language File - German          |
+#=======================================================|
+#                   Instructions                        |
+#                                                       |
+# - Same format as the game's Language/*_main.txt files |
+# - Don't erase the numbers in front or the bar         |
+#   character at the end                                |
+# - <par1>, <par2> are replaced with values             |
+# - Keep <b>...</b> tags around the same words          |
+# - Save as UTF-8, named like the game's own file       |
+#   (german_main.txt, chinese_main.txt, ...)            |
+# - Missing entries fall back to English                |
+#=======================================================|
+[0] Hangar                                              |
+#=======================================================|
+000 Zur Handelsroute verlegen|
+001 Auf welche Route? Das Schiff verlässt deine Flotte|
+002 Von Route entfernen|
+003 Verlässt die Route|
+004 Routenschiff...|
+005 Handelsroute wählen|
+006 Abbrechen|
+007 Handelsrouten|
+008 +<par1> weitere: auf der Galaxiekarte wählen|
+009 Noch keine Handelsrouten. Erstelle eine auf der Galaxiekarte.|
+010 Diese Station hat keinen Hangar für ein Routenschiff.|
+#=======================================================|
+[1] Fleet panel                                         |
+#=======================================================|
+011 Auf einer Handelsroute|
+012 Routenschiff in Reserve: kein Platz beim Flottenkommandanten, um zur Flotte zurückzukehren|
+013 Rolle: <b>Händler</b>|
+#=======================================================|
+[2] Messages                                            |
+# <par1> = ship, <par2> = sector or route               |
+#=======================================================|
+014 Routenschiff <par1> wurde in <par2> abgeschossen und ist per Notsprung entkommen. Es wird am nächsten Halt repariert.|
+015 Routenschiff <par1> wurde in <par2> zerstört. Die Fracht ist verloren; die <par4> Besatzungsmitglieder haben es nach <par3> zurückgeschafft.|
+016 dein Schiff|
+017 Routenschiff <par1> wurde in <par2> repariert. Du konntest nur <par3> der <par4> Kosten bezahlen.|
+018 Routenschiff <par1> kann nicht abfliegen: keine Sprungtor-Verbindung führt von seinem Halt zu den anderen Halten von <par2>. Baue ein Sprungtor, um sie zu verbinden.|
+019 Routenschiff <par1> wartet: <par2> braucht mindestens zwei nutzbare Halte.|
+#=======================================================|
+[3] Ship status                                         |
+# <par1> = station, <par2> = time left                  |
+#=======================================================|
+020 Festgesetzt: keine Torverbindung|
+021 Wartet: Route braucht 2 Halte|
+022 Reserve|
+023 Nach <par1> <par2>|
+024 Notsprung, nach <par1> <par2>|
+025 , Hülle <par1>%|
+026 Handelt bei <par1>|
+027 Verlässt <par1>|
+#=======================================================|
+[4] Routes                                              |
+#=======================================================|
+028 Route <par1>|
+029 (verschwunden)|
+#=======================================================|
+[5] Galaxy map panel                                    |
+#=======================================================|
+030 Noch keine Routen. Wähle einen Sektor und drücke Neu neben einer seiner Stationen.|
+031 Ein Rundkurs: Schiffe fliegen vom letzten Halt zurück zum ersten.|
+032 Schiffe fliegen zum letzten Halt und denselben Weg zurück.|
+033 Route löschen|
+034 Halte|
+035 Eine Route braucht mindestens zwei Halte.|
+036 (nicht nutzbar)|
+037 Hoch|
+038 Entfernen|
+039 Teilen|
+040 zurück nach <par1>|
+041 Rundkurs öffnen|
+042 Rundkurs zurück nach <par1> schließen|
+043 Entfernen nimmt einen Halt heraus und verbindet seine Nachbarn.|
+044 Entfernen nimmt einen Halt heraus und verbindet seine Nachbarn; Teilen bricht die Route dort in zwei. Ein Ende mit nur einem Halt fällt weg.|
+045 Schiffe|
+046 Keine. Verlege Schiffe im Hangar einer Station.|
+047 Stationen|
+048 Wähle einen Sektor, um seine Stationen hinzuzufügen.|
+049 Stationen in <par1>|
+050 Hier kann keine Station handeln. Routenstationen brauchen einen Markt; deine brauchen auch einen Hangar, NPC-Stationen müssen freundlich und entdeckt sein.|
+051 Du|
+052 NPC|
+053 Rundkurs schließen|
+054 Halt <par1>|
+055 Hinzufügen|
+056 Neu|
+057 keine Torverbindung von <par1>|
+058 Dieses Schiff ist auf einer Handelsroute.|
+059 Umbenennen|

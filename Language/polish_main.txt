@@ -1,0 +1,93 @@
+#=======================================================|
+#   Station Transport - Language File - Polish          |
+#=======================================================|
+#                   Instructions                        |
+#                                                       |
+# - Same format as the game's Language/*_main.txt files |
+# - Don't erase the numbers in front or the bar         |
+#   character at the end                                |
+# - <par1>, <par2> are replaced with values             |
+# - Keep <b>...</b> tags around the same words          |
+# - Save as UTF-8, named like the game's own file       |
+#   (german_main.txt, chinese_main.txt, ...)            |
+# - Missing entries fall back to English                |
+#=======================================================|
+[0] Hangar                                              |
+#=======================================================|
+000 Przenieś na szlak handlowy|
+001 Na który szlak? Statek opuści twoją flotę|
+002 Usuń ze szlaku|
+003 Opuszcza szlak|
+004 Statek szlakowy...|
+005 Wybierz szlak handlowy|
+006 Anuluj|
+007 Szlaki handlowe|
+008 +<par1> więcej: wybierz na mapie galaktyki|
+009 Brak szlaków handlowych. Utwórz szlak na mapie galaktyki.|
+010 Ta stacja nie ma hangaru dla statku szlakowego.|
+#=======================================================|
+[1] Fleet panel                                         |
+#=======================================================|
+011 Na szlaku handlowym|
+012 Statek szlakowy w rezerwie: brak miejsca u dowódcy floty, by wrócić do floty|
+013 Rola: <b>Handlarz</b>|
+#=======================================================|
+[2] Messages                                            |
+# <par1> = ship, <par2> = sector or route               |
+#=======================================================|
+014 Statek szlakowy <par1> został zestrzelony w <par2> i uciekł awaryjnym skokiem. Zostanie naprawiony na następnym przystanku.|
+015 Statek szlakowy <par1> został zniszczony w <par2>. Ładunek przepadł; <par4> członków załogi wróciło do <par3>.|
+016 twój statek|
+017 Statek szlakowy <par1> został naprawiony w <par2>. Mogłeś zapłacić tylko <par3> z <par4> kosztu.|
+018 Statek szlakowy <par1> nie może wylecieć: żadne połączenie bram skokowych nie łączy jego przystanku z pozostałymi przystankami <par2>. Zbuduj bramę skokową, by je połączyć.|
+019 Statek szlakowy <par1> czeka: <par2> potrzebuje co najmniej dwóch użytecznych przystanków.|
+#=======================================================|
+[3] Ship status                                         |
+# <par1> = station, <par2> = time left                  |
+#=======================================================|
+020 Utknął: brak połączenia bram|
+021 Czeka: szlak potrzebuje 2 przystanków|
+022 Rezerwa|
+023 Do <par1> <par2>|
+024 Skok awaryjny, do <par1> <par2>|
+025 , kadłub <par1>%|
+026 Handluje w <par1>|
+027 Opuszcza <par1>|
+#=======================================================|
+[4] Routes                                              |
+#=======================================================|
+028 Szlak <par1>|
+029 (zniknęła)|
+#=======================================================|
+[5] Galaxy map panel                                    |
+#=======================================================|
+030 Brak szlaków. Wybierz sektor i naciśnij Nowy przy jednej z jego stacji.|
+031 Pętla: statki lecą z ostatniego przystanku z powrotem do pierwszego.|
+032 Statki lecą do ostatniego przystanku, a potem wracają tą samą drogą.|
+033 Usuń szlak|
+034 Przystanki|
+035 Szlak potrzebuje co najmniej dwóch przystanków.|
+036 (nieużyteczny)|
+037 W górę|
+038 Usuń|
+039 Podziel|
+040 z powrotem do <par1>|
+041 Otwórz pętlę|
+042 Zamknij pętlę do <par1>|
+043 Usuń wyjmuje przystanek i łączy jego sąsiadów.|
+044 Usuń wyjmuje przystanek i łączy jego sąsiadów; Podziel dzieli tam szlak na dwa. Koniec z jednym przystankiem jest porzucany.|
+045 Statki|
+046 Brak. Przenieś statki w hangarze stacji.|
+047 Stacje|
+048 Wybierz sektor, aby dodać jego stacje.|
+049 Stacje w <par1>|
+050 Żadna stacja tutaj nie może handlować. Potrzebny jest rynek; twoje potrzebują też hangaru, a stacje NPC muszą być przyjazne i odkryte.|
+051 Ty|
+052 NPC|
+053 Zamknij pętlę|
+054 Przystanek <par1>|
+055 Dodaj|
+056 Nowy|
+057 brak połączenia bram z <par1>|
+058 Ten statek jest na szlaku handlowym.|
+059 Zmień nazwę|

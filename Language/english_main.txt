@@ -1,0 +1,93 @@
+#=======================================================|
+#   Station Transport - Language File - English         |
+#=======================================================|
+#                   Instructions                        |
+#                                                       |
+# - Same format as the game's Language/*_main.txt files |
+# - Don't erase the numbers in front or the bar         |
+#   character at the end                                |
+# - <par1>, <par2> are replaced with values             |
+# - Keep <b>...</b> tags around the same words          |
+# - Save as UTF-8, named like the game's own file       |
+#   (german_main.txt, chinese_main.txt, ...)            |
+# - Missing entries fall back to English                |
+#=======================================================|
+[0] Hangar                                              |
+#=======================================================|
+000 Transfer to trade route|
+001 Transfer to which route? It leaves your fleet|
+002 Remove from route|
+003 Leaving route|
+004 Route ship...|
+005 Choose a trade route|
+006 Cancel|
+007 Trade routes|
+008 +<par1> more: pick from the galaxy map|
+009 No trade routes yet. Make one on the galaxy map.|
+010 This station has no hangar for a route ship.|
+#=======================================================|
+[1] Fleet panel                                         |
+#=======================================================|
+011 On a trade route|
+012 Route ship in reserve: no Fleet Commander room to rejoin the fleet|
+013 Role: <b>Trader</b>|
+#=======================================================|
+[2] Messages                                            |
+# <par1> = ship, <par2> = sector or route               |
+#=======================================================|
+014 Route ship <par1> was shot down in <par2> and emergency warped out. It will be repaired at its next stop.|
+015 Route ship <par1> was destroyed in <par2>. Its cargo is lost; its crew of <par4> made it back to <par3>.|
+016 your ship|
+017 Route ship <par1> was repaired at <par2>. You could only pay <par3> of the <par4> it cost.|
+018 Route ship <par1> can't leave: no jump gate route connects its stop to the other stops of <par2>. Build a jump gate to link them.|
+019 Route ship <par1> is waiting: <par2> needs at least two stops a ship can use.|
+#=======================================================|
+[3] Ship status                                         |
+# <par1> = station, <par2> = time left                  |
+#=======================================================|
+020 Stuck: no gate route|
+021 Waiting: route needs 2 stops|
+022 Reserve|
+023 To <par1> <par2>|
+024 Warped out, to <par1> <par2>|
+025 , hull <par1>%|
+026 Trading at <par1>|
+027 Leaving <par1>|
+#=======================================================|
+[4] Routes                                              |
+#=======================================================|
+028 Route <par1>|
+029 (gone)|
+#=======================================================|
+[5] Galaxy map panel                                    |
+#=======================================================|
+030 No routes yet. Select a sector and press New next to one of its stations.|
+031 A loop: ships go from the last stop back to the first.|
+032 Ships go to the last stop, then back the same way.|
+033 Delete route|
+034 Stops|
+035 A route needs at least two stops.|
+036 (not usable)|
+037 Up|
+038 Remove|
+039 Split|
+040 back to <par1>|
+041 Open loop|
+042 Close loop back to <par1>|
+043 Remove takes a stop out and joins its neighbours.|
+044 Remove takes a stop out and joins its neighbours; Split breaks the route in two there. An end with one stop left is dropped.|
+045 Ships|
+046 None. Transfer ships from a station's Hangar.|
+047 Stations|
+048 Select a sector to add its stations.|
+049 Stations in <par1>|
+050 No station here can trade. Route stations need a Market; yours also need a Hangar, NPC ones must be friendly and discovered.|
+051 You|
+052 NPC|
+053 Close loop|
+054 Stop <par1>|
+055 Add|
+056 New|
+057 no gate route from <par1>|
+058 This ship is on a trade route.|
+059 Rename|

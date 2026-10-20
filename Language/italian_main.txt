@@ -1,0 +1,93 @@
+#=======================================================|
+#   Station Transport - Language File - Italian         |
+#=======================================================|
+#                   Instructions                        |
+#                                                       |
+# - Same format as the game's Language/*_main.txt files |
+# - Don't erase the numbers in front or the bar         |
+#   character at the end                                |
+# - <par1>, <par2> are replaced with values             |
+# - Keep <b>...</b> tags around the same words          |
+# - Save as UTF-8, named like the game's own file       |
+#   (german_main.txt, chinese_main.txt, ...)            |
+# - Missing entries fall back to English                |
+#=======================================================|
+[0] Hangar                                              |
+#=======================================================|
+000 Trasferisci a una rotta commerciale|
+001 Su quale rotta? La nave lascia la tua flotta|
+002 Rimuovi dalla rotta|
+003 Lascia la rotta|
+004 Nave di rotta...|
+005 Scegli una rotta commerciale|
+006 Annulla|
+007 Rotte commerciali|
+008 +<par1> altre: scegli dalla mappa galattica|
+009 Nessuna rotta commerciale. Creane una sulla mappa galattica.|
+010 Questa stazione non ha un hangar per una nave di rotta.|
+#=======================================================|
+[1] Fleet panel                                         |
+#=======================================================|
+011 Su una rotta commerciale|
+012 Nave di rotta in riserva: nessun posto da comandante di flotta per rientrare nella flotta|
+013 Ruolo: <b>Mercante</b>|
+#=======================================================|
+[2] Messages                                            |
+# <par1> = ship, <par2> = sector or route               |
+#=======================================================|
+014 La nave di rotta <par1> è stata abbattuta in <par2> ed è fuggita con un salto d'emergenza. Sarà riparata alla prossima tappa.|
+015 La nave di rotta <par1> è stata distrutta in <par2>. Il carico è perso; i suoi <par4> membri dell'equipaggio sono tornati a <par3>.|
+016 la tua nave|
+017 La nave di rotta <par1> è stata riparata a <par2>. Hai potuto pagare solo <par3> dei <par4> richiesti.|
+018 La nave di rotta <par1> non può partire: nessun collegamento di portali di salto unisce la sua tappa alle altre tappe di <par2>. Costruisci un portale di salto per collegarle.|
+019 La nave di rotta <par1> è in attesa: <par2> ha bisogno di almeno due tappe utilizzabili.|
+#=======================================================|
+[3] Ship status                                         |
+# <par1> = station, <par2> = time left                  |
+#=======================================================|
+020 Bloccata: nessun collegamento di portali|
+021 In attesa: la rotta richiede 2 tappe|
+022 Riserva|
+023 Verso <par1> <par2>|
+024 Salto d'emergenza, verso <par1> <par2>|
+025 , scafo <par1>%|
+026 Commercia a <par1>|
+027 Lascia <par1>|
+#=======================================================|
+[4] Routes                                              |
+#=======================================================|
+028 Rotta <par1>|
+029 (scomparsa)|
+#=======================================================|
+[5] Galaxy map panel                                    |
+#=======================================================|
+030 Nessuna rotta. Seleziona un settore e premi Nuova accanto a una delle sue stazioni.|
+031 Un anello: le navi vanno dall'ultima tappa alla prima.|
+032 Le navi vanno fino all'ultima tappa, poi tornano per la stessa strada.|
+033 Elimina rotta|
+034 Tappe|
+035 Una rotta ha bisogno di almeno due tappe.|
+036 (non utilizzabile)|
+037 Su|
+038 Rimuovi|
+039 Dividi|
+040 ritorno a <par1>|
+041 Apri l'anello|
+042 Chiudi l'anello verso <par1>|
+043 Rimuovi toglie una tappa e collega le sue vicine.|
+044 Rimuovi toglie una tappa e collega le sue vicine; Dividi spezza la rotta in due in quel punto. Un'estremità con una sola tappa viene scartata.|
+045 Navi|
+046 Nessuna. Trasferisci navi dall'hangar di una stazione.|
+047 Stazioni|
+048 Seleziona un settore per aggiungere le sue stazioni.|
+049 Stazioni in <par1>|
+050 Nessuna stazione qui può commerciare. Serve un mercato; le tue richiedono anche un hangar, quelle NPC devono essere amichevoli e scoperte.|
+051 Tu|
+052 NPC|
+053 Chiudi l'anello|
+054 Tappa <par1>|
+055 Aggiungi|
+056 Nuova|
+057 nessun collegamento di portali da <par1>|
+058 Questa nave è su una rotta commerciale.|
+059 Rinomina|

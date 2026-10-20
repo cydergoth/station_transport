@@ -1,0 +1,93 @@
+#=======================================================|
+#   Station Transport - Language File - Spanish         |
+#=======================================================|
+#                   Instructions                        |
+#                                                       |
+# - Same format as the game's Language/*_main.txt files |
+# - Don't erase the numbers in front or the bar         |
+#   character at the end                                |
+# - <par1>, <par2> are replaced with values             |
+# - Keep <b>...</b> tags around the same words          |
+# - Save as UTF-8, named like the game's own file       |
+#   (german_main.txt, chinese_main.txt, ...)            |
+# - Missing entries fall back to English                |
+#=======================================================|
+[0] Hangar                                              |
+#=======================================================|
+000 Transferir a ruta comercial|
+001 ¿A qué ruta? La nave deja tu flota|
+002 Quitar de la ruta|
+003 Dejando la ruta|
+004 Nave de ruta...|
+005 Elige una ruta comercial|
+006 Cancelar|
+007 Rutas comerciales|
+008 +<par1> más: elige en el mapa galáctico|
+009 Aún no hay rutas comerciales. Crea una en el mapa galáctico.|
+010 Esta estación no tiene hangar para una nave de ruta.|
+#=======================================================|
+[1] Fleet panel                                         |
+#=======================================================|
+011 En una ruta comercial|
+012 Nave de ruta en reserva: no hay espacio de comandante de flota para volver a la flota|
+013 Rol: <b>Comerciante</b>|
+#=======================================================|
+[2] Messages                                            |
+# <par1> = ship, <par2> = sector or route               |
+#=======================================================|
+014 La nave de ruta <par1> fue derribada en <par2> y escapó con un salto de emergencia. Se reparará en su próxima parada.|
+015 La nave de ruta <par1> fue destruida en <par2>. Su carga se perdió; sus <par4> tripulantes regresaron a <par3>.|
+016 tu nave|
+017 La nave de ruta <par1> se reparó en <par2>. Solo pudiste pagar <par3> de los <par4> que costaba.|
+018 La nave de ruta <par1> no puede partir: ninguna ruta de portales de salto une su parada con las demás paradas de <par2>. Construye un portal de salto para conectarlas.|
+019 La nave de ruta <par1> está esperando: <par2> necesita al menos dos paradas utilizables.|
+#=======================================================|
+[3] Ship status                                         |
+# <par1> = station, <par2> = time left                  |
+#=======================================================|
+020 Atascada: sin ruta de portales|
+021 Esperando: la ruta necesita 2 paradas|
+022 Reserva|
+023 Hacia <par1> <par2>|
+024 Salto de emergencia, hacia <par1> <par2>|
+025 , casco <par1>%|
+026 Comerciando en <par1>|
+027 Saliendo de <par1>|
+#=======================================================|
+[4] Routes                                              |
+#=======================================================|
+028 Ruta <par1>|
+029 (desaparecida)|
+#=======================================================|
+[5] Galaxy map panel                                    |
+#=======================================================|
+030 Aún no hay rutas. Selecciona un sector y pulsa Nueva junto a una de sus estaciones.|
+031 Un circuito: las naves van de la última parada a la primera.|
+032 Las naves van hasta la última parada y vuelven por el mismo camino.|
+033 Borrar ruta|
+034 Paradas|
+035 Una ruta necesita al menos dos paradas.|
+036 (no utilizable)|
+037 Subir|
+038 Quitar|
+039 Dividir|
+040 de vuelta a <par1>|
+041 Abrir circuito|
+042 Cerrar circuito hacia <par1>|
+043 Quitar elimina una parada y une sus vecinas.|
+044 Quitar elimina una parada y une sus vecinas; Dividir parte la ruta en dos ahí. Un extremo con una sola parada se descarta.|
+045 Naves|
+046 Ninguna. Transfiere naves desde el hangar de una estación.|
+047 Estaciones|
+048 Selecciona un sector para añadir sus estaciones.|
+049 Estaciones en <par1>|
+050 Aquí ninguna estación puede comerciar. Necesitan un mercado; las tuyas también un hangar, y las de PNJ deben ser amistosas y estar descubiertas.|
+051 Tú|
+052 PNJ|
+053 Cerrar circuito|
+054 Parada <par1>|
+055 Añadir|
+056 Nueva|
+057 sin ruta de portales desde <par1>|
+058 Esta nave está en una ruta comercial.|
+059 Renombrar|
