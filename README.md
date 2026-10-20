@@ -116,7 +116,7 @@ Star Valor BepInEx mods, skip to step 2.
 ### 2. Install Station Transport
 
 1. Download **`StationTransport-<version>.zip`** from the
-   [Releases page](https://github.com/cydergoth/station_transport/releases/latest).
+   [Releases page](https://github.com/cydergoth/station_transport/releases).
 2. Extract it into the game folder (the same folder as `Star Valor.exe`). This creates
    `BepInEx/plugins/StationTransport/`, which holds `StationTransport.dll` and a `Language` folder.
 3. Start the game and open the galaxy map. A **Trade routes** button appears on the left.
